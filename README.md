@@ -26,7 +26,7 @@ Given a python script which has matplotlib statement, you should first run the f
   python filter_matplotlib.py 【your python file】
  ```
 
-- Secondly, download the matplotlib schema from [text-to-vis]([https://github.com/giahy2507/text-to-vis-bench-assessment/tree/main](https://github.com/giahy2507/text-to-vis-bench-assessment/releases/tag/data)) rep which is in the data/raw_data/schema
+- Secondly, download the matplotlib schema from [text-to-vis](https://github.com/giahy2507/text-to-vis-bench-assessment/releases/tag/data)) rep which is in the data/raw_data/schema
 - Thirdly, run the filter_data.py
 ```python
 python extract_inspiration_text.py \
