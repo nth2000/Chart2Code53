@@ -29,5 +29,8 @@ The full synthesize pipelines are already shown in the figure.
 ## Qualitative Samples
 <img width="987" height="582" alt="图片" src="https://github.com/user-attachments/assets/62cd4ecc-3472-4828-83ec-5894df8c61b3" />
 
+## Acknowledgements
+The code is partly based on the [Text-to-vis](https://aclanthology.org/2024.emnlp-main.423/). Thanks to the greate work!
+
 ## Contact info
 If you have any questions or issues, feel free to contact thniu@ir.hit.edu.cn 
