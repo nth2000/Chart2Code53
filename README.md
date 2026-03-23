@@ -8,3 +8,7 @@ You can download our best model-checkpoint from [Hugging Face](https://huggingfa
 
 
 ## Synthesize Pipelines
+
+## Model Performance
+- Model finetuned on our chart2code53 dataset achieve great performance (till 2025.06)
+<img width="980" height="603" alt="图片" src="https://github.com/user-attachments/assets/11d414dc-8617-496b-bb3c-d359d16d607e" />
