@@ -18,11 +18,6 @@ def parse_args():
 
 
 def matches_original_logic_true(content: str) -> bool:
-    """
-    严格复现你原来 map_func 里的逻辑：
-    - 命中这些关键词之一 -> filter_flag = False
-    - 否则 -> filter_flag = True
-    """
     if (
         'mpl_tookits' in content.lower()
         or 'matplotlib' in content
