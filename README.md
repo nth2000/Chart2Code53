@@ -6,3 +6,10 @@
 - [ ] Inference Code
 - [ ] Chart2Code53 Dataset
 - [ ] Synthesize Pipelines
+
+## Model Checkpoint
+You can download our best model-checkpoint from [Hugging Face](https://huggingface.co/nth2000/Chart2Code53-trained_model). The model is trained with Qwen2-VL.
+## Chart2Code53 Dataset
+
+
+## Synthesize Pipelines
