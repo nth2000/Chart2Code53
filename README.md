@@ -17,9 +17,26 @@ Each dataset sample is a jsonl dict containing:
 
 ## Synthesize Pipelines
 The full synthesize pipelines are already shown in the figure.
-- For code-based pipeline, given a python script which has matplotlib statement, you should first run the following script to get plotting-related statement and then give the output statements to GPT4o to synthesize the full plotting code:
+
+### Code-Based SynthesizeFor code-based pipeline
+Given a python script which has matplotlib statement, you should first run the following script to get plotting-related statement and then give the output statements to GPT4o to synthesize the full plotting code:
+
+- Firstly, you should check if it is a matplotlib script using the filter_matplotlib.py.
  ```python
+  python filter_matplotlib.py 【your python file】
  ```
+
+- Secondly, download the matplotlib schema from [text-to-vis]([https://github.com/giahy2507/text-to-vis-bench-assessment/tree/main](https://github.com/giahy2507/text-to-vis-bench-assessment/releases/tag/data)) rep which is in the data/raw_data/schema
+- Thirdly, run the filter_data.py
+```python
+python extract_inspiration_text.py \
+  --py_file demo_plot.py \
+  --matplotlib_schema_dir ./matplotlib_schema \
+  --parse_total_lines_threshold 50
+```
+- Finally, give the extracted result to GPT4o to synthesize the full code.
+
+### Image-Based synthesize
 - For image-based pipeline, just give the figure to GPT4o to synthesize the plotting code.
 
 ## Model Performance
