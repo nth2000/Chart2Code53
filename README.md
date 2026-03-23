@@ -5,7 +5,7 @@
 You can download our best model-checkpoint from [Hugging Face](https://huggingface.co/nth2000/Chart2Code53-trained_model). The model is trained with Qwen2-VL.
 
 ## Chart2Code53 Dataset
-Please fill in this form to get access to the Chart2Code53 dataset.
+Please download the dataset from the [huggingface](https://huggingface.co/datasets/nth2000/Chart2Code53-training_dataset).
 Each dataset sample is a jsonl dict containing:
 
 ```python
@@ -28,3 +28,6 @@ The full synthesize pipelines are already shown in the figure.
 
 ## Qualitative Samples
 <img width="987" height="582" alt="图片" src="https://github.com/user-attachments/assets/62cd4ecc-3472-4828-83ec-5894df8c61b3" />
+
+## Contact info
+If you have any questions or issues, feel free to contact thniu@ir.hit.edu.cn 
