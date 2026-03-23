@@ -16,7 +16,15 @@ Each dataset sample is a jsonl dict containing:
 ```
 
 ## Synthesize Pipelines
+The full synthesize pipelines are already shown in the figure.
+- For code-based pipeline, given a python script which has matplotlib statement, you should first run the following script to get plotting-related statement and then give the output statements to GPT4o to synthesize the full plotting code:
+ ```python
+ ```
+- For image-based pipeline, just give the figure to GPT4o to synthesize the plotting code.
 
 ## Model Performance
 - Model finetuned on our chart2code53 dataset achieve great performance (till 2025.06)
 <img width="980" height="603" alt="图片" src="https://github.com/user-attachments/assets/11d414dc-8617-496b-bb3c-d359d16d607e" />
+
+## Qualitative Samples
+<img width="987" height="582" alt="图片" src="https://github.com/user-attachments/assets/62cd4ecc-3472-4828-83ec-5894df8c61b3" />
